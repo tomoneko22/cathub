@@ -29,7 +29,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro69Yes/sussy-Script
 end)
 
 main:CreateButton("vfly", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/sdwrq0RK"))()
 end)
 
 local FOV = window:CreateTab("FOV")
