@@ -1,0 +1,59 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+
+local window = PabloLib:Create(
+"cathub  V1 Created by友猫", -- Name here.
+"Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
+"k" -- You can put any keybind here to open close.
+)
+
+local main = window:CreateTab("main")
+
+main:CreateButton("NamelessAdmin", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+end)
+
+main:CreateButton("infiniteyield", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+main:CreateButton("Fling Things and People", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BlizTBr/scripts/main/FTAP.lua"))()
+end)
+
+main:CreateButton("evade", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
+end)
+
+main:CreateButton("fly v3", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro69Yes/sussy-Script/main/SecuredFlyGuiv3.lua'))()
+end)
+
+main:CreateButton("vfly", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PepesGH1/stuff/main/evadeloader.lua"))()
+end)
+
+local FOV = window:CreateTab("FOV")
+
+FOV:CreateButton("FOV 120 MAX", function()
+game.Workspace.CurrentCamera.FieldOfView = 120
+end)
+
+FOV:CreateButton("FOV 110", function()
+game.Workspace.CurrentCamera.FieldOfView = 110
+end)
+
+FOV:CreateButton("FOV 100", function()
+game.Workspace.CurrentCamera.FieldOfView = 100
+end)
+
+FOV:CreateButton("FOV 90", function()
+game.Workspace.CurrentCamera.FieldOfView = 90
+end)
+
+FOV:CreateButton("FOV 80", function()
+game.Workspace.CurrentCamera.FieldOfView = 80
+end)
+
+FOV:CreateButton("FOV reset", function()
+game.Workspace.CurrentCamera.FieldOfView = 70
+end)
